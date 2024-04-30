@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Api", "Rabbit.Api\Rabbit.Api.csproj", "{98B75644-1671-412D-89E7-15B65DFE1AAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Consumer", "Rabbit.Consumer\Rabbit.Consumer.csproj", "{531465B2-FE98-4B70-A9C8-92B563CC8839}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Models", "Rabbit.Models\Rabbit.Models.csproj", "{2B489B95-0F3B-4B23-99C9-93887694401E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Services", "Rabbit.Services\Rabbit.Services.csproj", "{92F8F30F-77D8-49B0-8ACE-64818599E6AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Repositories", "Rabbit.Repositories\Rabbit.Repositories.csproj", "{65511030-5939-459C-A716-891DBB1C8D90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C3D23022-D25E-4EE6-B8E7-1E067BCCC9DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{5CD611D5-1C60-4B06-B01C-58BD77C949DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{2C952A9C-45CC-4CB9-9504-0A9E34E7E1F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemplo_Consumo", "Exemplo_Consumo", "{8889C937-08C7-45F1-BAC3-6BA429708A1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B75644-1671-412D-89E7-15B65DFE1AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B75644-1671-412D-89E7-15B65DFE1AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B75644-1671-412D-89E7-15B65DFE1AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B75644-1671-412D-89E7-15B65DFE1AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531465B2-FE98-4B70-A9C8-92B563CC8839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531465B2-FE98-4B70-A9C8-92B563CC8839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531465B2-FE98-4B70-A9C8-92B563CC8839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531465B2-FE98-4B70-A9C8-92B563CC8839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B489B95-0F3B-4B23-99C9-93887694401E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B489B95-0F3B-4B23-99C9-93887694401E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B489B95-0F3B-4B23-99C9-93887694401E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B489B95-0F3B-4B23-99C9-93887694401E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F8F30F-77D8-49B0-8ACE-64818599E6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F8F30F-77D8-49B0-8ACE-64818599E6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F8F30F-77D8-49B0-8ACE-64818599E6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F8F30F-77D8-49B0-8ACE-64818599E6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65511030-5939-459C-A716-891DBB1C8D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65511030-5939-459C-A716-891DBB1C8D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65511030-5939-459C-A716-891DBB1C8D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65511030-5939-459C-A716-891DBB1C8D90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98B75644-1671-412D-89E7-15B65DFE1AAC} = {C3D23022-D25E-4EE6-B8E7-1E067BCCC9DF}
+		{531465B2-FE98-4B70-A9C8-92B563CC8839} = {8889C937-08C7-45F1-BAC3-6BA429708A1F}
+		{2B489B95-0F3B-4B23-99C9-93887694401E} = {2C952A9C-45CC-4CB9-9504-0A9E34E7E1F1}
+		{92F8F30F-77D8-49B0-8ACE-64818599E6AA} = {5CD611D5-1C60-4B06-B01C-58BD77C949DF}
+		{65511030-5939-459C-A716-891DBB1C8D90} = {2C952A9C-45CC-4CB9-9504-0A9E34E7E1F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76339B57-C5F5-4408-A3DA-D899A05B94D1}
+	EndGlobalSection
+EndGlobal
